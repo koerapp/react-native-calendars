@@ -106,6 +106,10 @@ class CalendarHeader extends Component {
       if (_.includes(disabledDaysIndexes, idx)) {
         dayStyle.push(this.style.disabledDayHeader);
       }
+      
+      if (idx > 4) {
+        dayStyle.push(this.style.weekendDayHeader);
+      }
 
       return (
         <Text
