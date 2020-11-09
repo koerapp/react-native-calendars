@@ -55,6 +55,9 @@ export default function(theme={}) {
       fontWeight: appStyle.textDayHeaderFontWeight,
       color: appStyle.textSectionTitleColor
     },
+    weekendDayHeader: {
+      color: appStyle.textWeekendDayColor
+    },
     disabledDayHeader: {
       color: appStyle.textSectionTitleDisabledColor
     },
